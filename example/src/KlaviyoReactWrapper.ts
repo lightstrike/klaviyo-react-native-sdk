@@ -15,8 +15,10 @@ import {
 } from './RandomGenerators';
 
 export const setEmail = async () => {
+  const email = generateRandomEmails();
   try {
-    Klaviyo.setEmail(generateRandomEmails());
+    Klaviyo.setEmail(email);
+    console.log('email is =', email);
   } catch (e: any) {
     console.log(e.message, e.code);
   }
@@ -141,6 +143,7 @@ export const sendRandomEvent = async () => {
       properties: { testKey: generateRandomName(3) },
       uniqueId: generateRandomName(5),
     };
+    console.log(event);
     Klaviyo.createEvent(event);
   } catch (e: any) {
     console.log(e.message, e.code);

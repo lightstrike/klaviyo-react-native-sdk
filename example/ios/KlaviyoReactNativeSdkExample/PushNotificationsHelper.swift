@@ -33,6 +33,6 @@ class PushNotificationsHelper: NSObject {
 
   @objc
   private static func initializeSDK() {
-    KlaviyoSDK().initialize(with: "YOUR_PUBLIC_API_KEY")
+    KlaviyoSDK().initialize(with: "ThTvzH")
   }
 }

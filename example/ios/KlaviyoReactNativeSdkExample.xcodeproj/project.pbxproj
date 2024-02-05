@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00549431A7D5F157E6AB628A /* libPods-KlaviyoReactNativeSdkExample-KlaviyoReactNativeSdkExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 386FD59BCCCB2CECC1AB23C9 /* libPods-KlaviyoReactNativeSdkExample-KlaviyoReactNativeSdkExampleTests.a */; };
 		00E356F31AD99517003FC87E /* KlaviyoReactNativeSdkExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* KlaviyoReactNativeSdkExampleTests.m */; };
-		0EF727E03F7C384A058DFDE7 /* libPods-KlaviyoReactNativeSdkExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FC72FD458D5D420EC3AC0EE /* libPods-KlaviyoReactNativeSdkExample.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		34B0B3D92B3F29C200CC8ADE /* PushNotificationsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B0B3D82B3F29C200CC8ADE /* PushNotificationsHelper.swift */; };
+		780CEC18B327262BA5143FAB /* libPods-KlaviyoReactNativeSdkExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA6EDEC76C27D6826ACA08FB /* libPods-KlaviyoReactNativeSdkExample.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		A6761C292FBDDC634803D527 /* libPods-KlaviyoReactNativeSdkExample-KlaviyoReactNativeSdkExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC7D47C441DCA66DB9D058AF /* libPods-KlaviyoReactNativeSdkExample-KlaviyoReactNativeSdkExampleTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,22 +31,22 @@
 		00E356EE1AD99517003FC87E /* KlaviyoReactNativeSdkExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KlaviyoReactNativeSdkExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* KlaviyoReactNativeSdkExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KlaviyoReactNativeSdkExampleTests.m; sourceTree = "<group>"; };
-		02D376B6B2241AD5D0F0527E /* Pods-KlaviyoReactNativeSdkExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KlaviyoReactNativeSdkExample.debug.xcconfig"; path = "Target Support Files/Pods-KlaviyoReactNativeSdkExample/Pods-KlaviyoReactNativeSdkExample.debug.xcconfig"; sourceTree = "<group>"; };
-		0ECD08CB82CD21CD0799D483 /* Pods-KlaviyoReactNativeSdkExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KlaviyoReactNativeSdkExample.release.xcconfig"; path = "Target Support Files/Pods-KlaviyoReactNativeSdkExample/Pods-KlaviyoReactNativeSdkExample.release.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* KlaviyoReactNativeSdkExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KlaviyoReactNativeSdkExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = KlaviyoReactNativeSdkExample/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = KlaviyoReactNativeSdkExample/AppDelegate.mm; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = KlaviyoReactNativeSdkExample/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = KlaviyoReactNativeSdkExample/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = KlaviyoReactNativeSdkExample/main.m; sourceTree = "<group>"; };
-		33194555397E4856F9F69CC6 /* Pods-KlaviyoReactNativeSdkExample-KlaviyoReactNativeSdkExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KlaviyoReactNativeSdkExample-KlaviyoReactNativeSdkExampleTests.release.xcconfig"; path = "Target Support Files/Pods-KlaviyoReactNativeSdkExample-KlaviyoReactNativeSdkExampleTests/Pods-KlaviyoReactNativeSdkExample-KlaviyoReactNativeSdkExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		2B39DBBA129714BBED20FE0E /* Pods-KlaviyoReactNativeSdkExample-KlaviyoReactNativeSdkExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KlaviyoReactNativeSdkExample-KlaviyoReactNativeSdkExampleTests.release.xcconfig"; path = "Target Support Files/Pods-KlaviyoReactNativeSdkExample-KlaviyoReactNativeSdkExampleTests/Pods-KlaviyoReactNativeSdkExample-KlaviyoReactNativeSdkExampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		34B0B3D72B3F29C100CC8ADE /* KlaviyoReactNativeSdkExample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KlaviyoReactNativeSdkExample-Bridging-Header.h"; sourceTree = "<group>"; };
 		34B0B3D82B3F29C200CC8ADE /* PushNotificationsHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PushNotificationsHelper.swift; path = KlaviyoReactNativeSdkExample/PushNotificationsHelper.swift; sourceTree = "<group>"; };
 		34B0B3DA2B3F2DD200CC8ADE /* KlaviyoReactNativeSdkExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = KlaviyoReactNativeSdkExample.entitlements; path = KlaviyoReactNativeSdkExample/KlaviyoReactNativeSdkExample.entitlements; sourceTree = "<group>"; };
-		386FD59BCCCB2CECC1AB23C9 /* libPods-KlaviyoReactNativeSdkExample-KlaviyoReactNativeSdkExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KlaviyoReactNativeSdkExample-KlaviyoReactNativeSdkExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4DD606F64FB41EF3C28C59B7 /* Pods-KlaviyoReactNativeSdkExample-KlaviyoReactNativeSdkExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KlaviyoReactNativeSdkExample-KlaviyoReactNativeSdkExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-KlaviyoReactNativeSdkExample-KlaviyoReactNativeSdkExampleTests/Pods-KlaviyoReactNativeSdkExample-KlaviyoReactNativeSdkExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5EACBF4AE308CF1C985DC77E /* Pods-KlaviyoReactNativeSdkExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KlaviyoReactNativeSdkExample.debug.xcconfig"; path = "Target Support Files/Pods-KlaviyoReactNativeSdkExample/Pods-KlaviyoReactNativeSdkExample.debug.xcconfig"; sourceTree = "<group>"; };
+		813CA8355E93A41B85611E69 /* Pods-KlaviyoReactNativeSdkExample-KlaviyoReactNativeSdkExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KlaviyoReactNativeSdkExample-KlaviyoReactNativeSdkExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-KlaviyoReactNativeSdkExample-KlaviyoReactNativeSdkExampleTests/Pods-KlaviyoReactNativeSdkExample-KlaviyoReactNativeSdkExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = KlaviyoReactNativeSdkExample/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9FC72FD458D5D420EC3AC0EE /* libPods-KlaviyoReactNativeSdkExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KlaviyoReactNativeSdkExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B42907AAC11081E0E9CB8994 /* Pods-KlaviyoReactNativeSdkExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KlaviyoReactNativeSdkExample.release.xcconfig"; path = "Target Support Files/Pods-KlaviyoReactNativeSdkExample/Pods-KlaviyoReactNativeSdkExample.release.xcconfig"; sourceTree = "<group>"; };
+		DC7D47C441DCA66DB9D058AF /* libPods-KlaviyoReactNativeSdkExample-KlaviyoReactNativeSdkExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KlaviyoReactNativeSdkExample-KlaviyoReactNativeSdkExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA6EDEC76C27D6826ACA08FB /* libPods-KlaviyoReactNativeSdkExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KlaviyoReactNativeSdkExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -55,7 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00549431A7D5F157E6AB628A /* libPods-KlaviyoReactNativeSdkExample-KlaviyoReactNativeSdkExampleTests.a in Frameworks */,
+				A6761C292FBDDC634803D527 /* libPods-KlaviyoReactNativeSdkExample-KlaviyoReactNativeSdkExampleTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,7 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EF727E03F7C384A058DFDE7 /* libPods-KlaviyoReactNativeSdkExample.a in Frameworks */,
+				780CEC18B327262BA5143FAB /* libPods-KlaviyoReactNativeSdkExample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,8 +107,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				9FC72FD458D5D420EC3AC0EE /* libPods-KlaviyoReactNativeSdkExample.a */,
-				386FD59BCCCB2CECC1AB23C9 /* libPods-KlaviyoReactNativeSdkExample-KlaviyoReactNativeSdkExampleTests.a */,
+				EA6EDEC76C27D6826ACA08FB /* libPods-KlaviyoReactNativeSdkExample.a */,
+				DC7D47C441DCA66DB9D058AF /* libPods-KlaviyoReactNativeSdkExample-KlaviyoReactNativeSdkExampleTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -147,10 +147,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				02D376B6B2241AD5D0F0527E /* Pods-KlaviyoReactNativeSdkExample.debug.xcconfig */,
-				0ECD08CB82CD21CD0799D483 /* Pods-KlaviyoReactNativeSdkExample.release.xcconfig */,
-				4DD606F64FB41EF3C28C59B7 /* Pods-KlaviyoReactNativeSdkExample-KlaviyoReactNativeSdkExampleTests.debug.xcconfig */,
-				33194555397E4856F9F69CC6 /* Pods-KlaviyoReactNativeSdkExample-KlaviyoReactNativeSdkExampleTests.release.xcconfig */,
+				5EACBF4AE308CF1C985DC77E /* Pods-KlaviyoReactNativeSdkExample.debug.xcconfig */,
+				B42907AAC11081E0E9CB8994 /* Pods-KlaviyoReactNativeSdkExample.release.xcconfig */,
+				813CA8355E93A41B85611E69 /* Pods-KlaviyoReactNativeSdkExample-KlaviyoReactNativeSdkExampleTests.debug.xcconfig */,
+				2B39DBBA129714BBED20FE0E /* Pods-KlaviyoReactNativeSdkExample-KlaviyoReactNativeSdkExampleTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -162,12 +162,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "KlaviyoReactNativeSdkExampleTests" */;
 			buildPhases = (
-				89562C6AA42210849BF01226 /* [CP] Check Pods Manifest.lock */,
+				038A3027B3D5E7BB350AA457 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				27FF43EFFC2803AEB3B764FD /* [CP] Embed Pods Frameworks */,
-				3270EAB41AEE06402923E570 /* [CP] Copy Pods Resources */,
+				08E7F0070E9755F50F62FB11 /* [CP] Embed Pods Frameworks */,
+				339D3BF3D2BA2206E09F0508 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -183,13 +183,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "KlaviyoReactNativeSdkExample" */;
 			buildPhases = (
-				672A0E237E680843BFF8946A /* [CP] Check Pods Manifest.lock */,
+				D6B26FD8BA771FEF3042FFAE /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				A260871868A35189A3B97761 /* [CP] Embed Pods Frameworks */,
-				BDAFE687827A7F0B5F7D4402 /* [CP] Copy Pods Resources */,
+				75215EA38D080950471BBFFF /* [CP] Embed Pods Frameworks */,
+				A8B0489DBE80ECE5E53C8BDE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -272,63 +272,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		27FF43EFFC2803AEB3B764FD /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-KlaviyoReactNativeSdkExample-KlaviyoReactNativeSdkExampleTests/Pods-KlaviyoReactNativeSdkExample-KlaviyoReactNativeSdkExampleTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-KlaviyoReactNativeSdkExample-KlaviyoReactNativeSdkExampleTests/Pods-KlaviyoReactNativeSdkExample-KlaviyoReactNativeSdkExampleTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KlaviyoReactNativeSdkExample-KlaviyoReactNativeSdkExampleTests/Pods-KlaviyoReactNativeSdkExample-KlaviyoReactNativeSdkExampleTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3270EAB41AEE06402923E570 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-KlaviyoReactNativeSdkExample-KlaviyoReactNativeSdkExampleTests/Pods-KlaviyoReactNativeSdkExample-KlaviyoReactNativeSdkExampleTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-KlaviyoReactNativeSdkExample-KlaviyoReactNativeSdkExampleTests/Pods-KlaviyoReactNativeSdkExample-KlaviyoReactNativeSdkExampleTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KlaviyoReactNativeSdkExample-KlaviyoReactNativeSdkExampleTests/Pods-KlaviyoReactNativeSdkExample-KlaviyoReactNativeSdkExampleTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		672A0E237E680843BFF8946A /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-KlaviyoReactNativeSdkExample-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		89562C6AA42210849BF01226 /* [CP] Check Pods Manifest.lock */ = {
+		038A3027B3D5E7BB350AA457 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -350,7 +294,41 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A260871868A35189A3B97761 /* [CP] Embed Pods Frameworks */ = {
+		08E7F0070E9755F50F62FB11 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KlaviyoReactNativeSdkExample-KlaviyoReactNativeSdkExampleTests/Pods-KlaviyoReactNativeSdkExample-KlaviyoReactNativeSdkExampleTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KlaviyoReactNativeSdkExample-KlaviyoReactNativeSdkExampleTests/Pods-KlaviyoReactNativeSdkExample-KlaviyoReactNativeSdkExampleTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KlaviyoReactNativeSdkExample-KlaviyoReactNativeSdkExampleTests/Pods-KlaviyoReactNativeSdkExample-KlaviyoReactNativeSdkExampleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		339D3BF3D2BA2206E09F0508 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KlaviyoReactNativeSdkExample-KlaviyoReactNativeSdkExampleTests/Pods-KlaviyoReactNativeSdkExample-KlaviyoReactNativeSdkExampleTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KlaviyoReactNativeSdkExample-KlaviyoReactNativeSdkExampleTests/Pods-KlaviyoReactNativeSdkExample-KlaviyoReactNativeSdkExampleTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KlaviyoReactNativeSdkExample-KlaviyoReactNativeSdkExampleTests/Pods-KlaviyoReactNativeSdkExample-KlaviyoReactNativeSdkExampleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75215EA38D080950471BBFFF /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -367,7 +345,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KlaviyoReactNativeSdkExample/Pods-KlaviyoReactNativeSdkExample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BDAFE687827A7F0B5F7D4402 /* [CP] Copy Pods Resources */ = {
+		A8B0489DBE80ECE5E53C8BDE /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -382,6 +360,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KlaviyoReactNativeSdkExample/Pods-KlaviyoReactNativeSdkExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6B26FD8BA771FEF3042FFAE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KlaviyoReactNativeSdkExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -418,7 +418,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4DD606F64FB41EF3C28C59B7 /* Pods-KlaviyoReactNativeSdkExample-KlaviyoReactNativeSdkExampleTests.debug.xcconfig */;
+			baseConfigurationReference = 813CA8355E93A41B85611E69 /* Pods-KlaviyoReactNativeSdkExample-KlaviyoReactNativeSdkExampleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -446,7 +446,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 33194555397E4856F9F69CC6 /* Pods-KlaviyoReactNativeSdkExample-KlaviyoReactNativeSdkExampleTests.release.xcconfig */;
+			baseConfigurationReference = 2B39DBBA129714BBED20FE0E /* Pods-KlaviyoReactNativeSdkExample-KlaviyoReactNativeSdkExampleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,7 +471,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 02D376B6B2241AD5D0F0527E /* Pods-KlaviyoReactNativeSdkExample.debug.xcconfig */;
+			baseConfigurationReference = 5EACBF4AE308CF1C985DC77E /* Pods-KlaviyoReactNativeSdkExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -501,7 +501,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0ECD08CB82CD21CD0799D483 /* Pods-KlaviyoReactNativeSdkExample.release.xcconfig */;
+			baseConfigurationReference = B42907AAC11081E0E9CB8994 /* Pods-KlaviyoReactNativeSdkExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
